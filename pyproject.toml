@@ -31,8 +31,8 @@ sigil-reduce = "sigil_creator.reduce_letters:main"
 sigil-numbers = "sigil_creator.letters_to_numbers:main"
 
 [project.urls]
-Homepage = "https://github.com/example/sigil-creator"
-Documentation = "https://github.com/example/sigil-creator#readme"
+Homepage = "https://github.com/CraftingBuilds/sigil-creator-cli"
+Documentation = "https://github.com/CraftingBuilds/sigil-creator-cli#readme"
 
 [tool.setuptools.packages.find]
 where = ["src"]
