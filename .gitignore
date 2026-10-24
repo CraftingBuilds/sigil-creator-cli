@@ -1,0 +1,13 @@
+# Build and distribution directories
+dist/
+build/
+*.egg-info/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and virtual environments
+.pytest_cache/
+.venv/
+venv/
