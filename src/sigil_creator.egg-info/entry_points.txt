@@ -1,0 +1,4 @@
+[console_scripts]
+sigil = sigil_creator.cli:main
+sigil-numbers = sigil_creator.letters_to_numbers:main
+sigil-reduce = sigil_creator.reduce_letters:main
