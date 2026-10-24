@@ -39,3 +39,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 "sigil_creator" = ["data/profiles/*.yaml", "data/references/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
