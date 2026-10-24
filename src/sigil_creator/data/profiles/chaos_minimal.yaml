@@ -1,0 +1,151 @@
+sigil_style:
+  name: "Chaos Minimal Sigil"
+  aesthetic:
+    influences:
+      - "Austin Osman Spare automatic drawing"
+      - "Modern chaos magic aesthetic"
+      - "High-contrast abstract monoline and dual-weight marks"
+      - "Contemporary occult graphic design"
+    character: "Clean, abstract, psychological, decisive"
+    finish: "Pure black mark on stark white or deep charcoal ground"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Stark white or near-black field"
+    background_texture: "None or extremely subtle paper tooth"
+    foreground_color: "#000000"
+    opacity: 1.0
+
+  background:
+    color: "#fafafa"
+    asset: null
+    texture_opacity: 0.0
+
+  stroke:
+    color: "#000000"
+    vector_widths:
+      primary: 12
+      secondary: 6
+      detail: 3
+    primary_weight: "Confident medium-heavy"
+    secondary_weight: "Light but decisive"
+    approximate_primary_width: "12 units per 1000 canvas units"
+    approximate_secondary_width: "6 units per 1000 canvas units"
+    cap_style: "Rounded or slightly tapered, never ornate"
+    join_style: "Smooth continuous joins; occasional hard corners for tension"
+    pressure_variation: "Subtle, controlled"
+    character: "Graphic, intentional, non-decorative"
+    outlines: "Solid black, no hatching or sketch lines"
+
+  curves:
+    style:
+      - "Long continuous arcs"
+      - "Open C and S curves"
+      - "Occasional tight loops that resolve into the main mass"
+      - "Straight runs that transition cleanly into curves"
+    curvature: "Smooth, economical, purposeful"
+    symmetry: "Deliberately broken or approximate"
+    transitions: "Fluid; avoid unnecessary stops"
+    terminals:
+      - "Soft rounded ends"
+      - "Clean tapered points"
+      - "Simple closed loops"
+
+  geometry:
+    vertical_axis: "Implied rather than explicit"
+    horizontal_axis: "Rare; prefer diagonal energy"
+    diagonal_axes: "Dominant dynamic diagonals"
+    construction: "Single interwoven abstract form from reduced letters"
+    alignment: "Centered but dynamically balanced"
+    symmetry: "Asymmetric by design"
+    intersections: "Selective overlaps that create tension"
+    negative_space: "Large open fields; the mark breathes"
+
+  construction:
+    default_method: "reduced_monogram"
+    default_gesture: "flow"
+    glyph_scale: 1.05
+    glyph_curvature: 1.15
+    scale_reference_count: 5
+    max_visible_forms: 5
+    weave_sway: 22
+    weave_anchors: []
+    rotation_limit: 25
+    vertical_squash: 0.95
+    word_separation: 0
+    spine_drift: 40
+    spine_top: 140
+    spine_bottom: 860
+    spine_width: 18
+    structure_width: 18
+    loop_scale: 1.2
+    bowl_scale: 1.15
+    crossbar_y: 480
+    crossbar_start_x: 200
+    crossbar_span: 600
+    crossbar_width: 14
+    crossbar_sweep: 18
+    gesture_scale: 1.1
+    gesture_overlay_scale: 0.8
+    gesture_rotation: 18
+    gesture_width: 12
+    wheel_radius: 380
+    square_extent: 780
+
+  layering:
+    order:
+      - "primary-form"
+      - "secondary-gesture"
+      - "accent-marks"
+
+  arrow:
+    enabled: false
+    inclusion: "Generally omitted; the form itself carries direction"
+    shaft:
+      style: ""
+      weight: ""
+      direction: ""
+    head:
+      shape: ""
+      construction: ""
+      silhouette: ""
+      fill: ""
+    integration: ""
+    appearance: ""
+
+  lettering:
+    style: "Fully abstracted; original letters almost unrecognizable"
+    construction: "Letters dissolved into continuous gesture"
+    vertical_strokes: "Integrated into the flow"
+    crossbars: "Rare; absorbed into curves"
+    bowls: "Open or closed loops that serve the overall silhouette"
+    diagonals: "Primary energy carriers"
+    legibility: "Intentionally low; silhouette and energy matter more than readable letters"
+
+  composition:
+    arrangement: "Single dynamic abstract mark occupying the central field"
+    dominant_features:
+      - "Continuous interwoven gesture"
+      - "Strong silhouette"
+      - "Generous negative space"
+      - "Asymmetric balance"
+    margins: "Generous white / black margins; the mark does not crowd the edge"
+    visual_hierarchy: "Overall silhouette first, internal movement second"
+    density: "Low to medium; clarity and psychological impact over ornament"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Long continuous Bézier curves and selective straight segments"
+    fills: "Solid black for the primary form; no internal hatching"
+    transforms: "Free rotation and scaling of letter-derived components"
+    layering: "Background, primary form, optional secondary gesture"
+    scalability: "Pure vector geometry, no texture dependency"
+    avoid:
+      - "Heavy calligraphic pressure drama"
+      - "Ornate terminals or flourishes"
+      - "Geometric frames or outer circles unless requested"
+      - "High density or filled registers"
+      - "Readable letterforms"
+      - "Decorative borders or planetary symbols"

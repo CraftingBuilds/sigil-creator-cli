@@ -1,0 +1,153 @@
+sigil_style:
+  name: "Alchemical Manuscript Sigil"
+  aesthetic:
+    influences:
+      - "Medieval and Renaissance alchemical manuscripts"
+      - "Ripley Scrolls and colored alchemical emblems"
+      - "Hand-illuminated esoteric diagrams"
+      - "Soft parchment with iron-gall ink character"
+    character: "Ornate yet restrained, symbolic, manuscript-like"
+    finish: "Warm iron-gall black on soft aged parchment with subtle color accents optional"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Soft aged parchment, warm and slightly uneven"
+    background_texture: "Visible paper fibers, gentle mottling, faint age spots"
+    foreground_color: "#1a1208"
+    opacity: 1.0
+
+  background:
+    color: "#f0e6d2"
+    asset: null
+    texture_opacity: 1.0
+
+  stroke:
+    color: "#1a1208"
+    vector_widths:
+      primary: 11
+      secondary: 7
+      detail: 3.5
+    primary_weight: "Medium with gentle swelling"
+    secondary_weight: "Lighter, more delicate"
+    approximate_primary_width: "11 units per 1000 canvas units"
+    approximate_secondary_width: "7 units per 1000 canvas units"
+    cap_style: "Softly rounded or gently tapered quill-like ends"
+    join_style: "Fluid, organic joins with occasional soft nodes"
+    pressure_variation: "Noticeable but refined — quill pressure simulation"
+    character: "Hand-drawn manuscript ink, alive and slightly irregular"
+    outlines: "Solid dark shapes with soft edge quality, not hard-cut"
+
+  curves:
+    style:
+      - "Gentle S-curves"
+      - "Organic bowls and loops"
+      - "Spiraling or coiled accents"
+      - "Soft circular and oval registers"
+    curvature: "Living, continuous, manuscript-like"
+    symmetry: "Approximate and organic"
+    transitions: "Curves flow into one another with natural rhythm"
+    terminals:
+      - "Soft rounded ends"
+      - "Delicate tapered hooks"
+      - "Small spiral or coil finishes"
+
+  geometry:
+    vertical_axis: "Gentle central stem or rising column"
+    horizontal_axis: "Soft horizontal bands or registers"
+    diagonal_axes: "Flowing rather than rigid diagonals"
+    construction: "Interwoven letter forms with optional alchemical emblems (circle, triangle, cross)"
+    alignment: "Centered with organic drift"
+    symmetry: "Soft bilateral or free"
+    intersections: "Overlapping layers that feel hand-placed"
+    negative_space: "Irregular, breathing voids"
+
+  construction:
+    default_method: "illuminated_monogram"
+    default_gesture: "coil"
+    glyph_scale: 1.0
+    glyph_curvature: 1.25
+    scale_reference_count: 7
+    max_visible_forms: 8
+    weave_sway: 18
+    weave_anchors: []
+    rotation_limit: 20
+    vertical_squash: 0.92
+    word_separation: 14
+    spine_drift: 28
+    spine_top: 130
+    spine_bottom: 870
+    spine_width: 16
+    structure_width: 16
+    loop_scale: 1.15
+    bowl_scale: 1.2
+    crossbar_y: 420
+    crossbar_start_x: 190
+    crossbar_span: 620
+    crossbar_width: 18
+    crossbar_sweep: 14
+    gesture_scale: 1.05
+    gesture_overlay_scale: 0.78
+    gesture_rotation: 15
+    gesture_width: 10
+    wheel_radius: 360
+    square_extent: 800
+
+  layering:
+    order:
+      - "parchment-ground"
+      - "primary-structure"
+      - "letterforms"
+      - "alchemical-accents"
+      - "fine-detail"
+
+  arrow:
+    enabled: false
+    inclusion: "Uncommon; direction expressed through rising or spiral gestures instead"
+    shaft:
+      style: ""
+      weight: ""
+      direction: ""
+    head:
+      shape: ""
+      construction: ""
+      silhouette: ""
+      fill: ""
+    integration: ""
+    appearance: ""
+
+  lettering:
+    style: "Humanist and early italic mixed with abstracted alchemical forms"
+    construction: "Letters remain partially legible, gently rotated or merged"
+    vertical_strokes: "Slightly swelling stems"
+    crossbars: "Soft horizontal connections"
+    bowls: "Open, breathing loops"
+    diagonals: "Gentle diagonal links"
+    legibility: "Higher than pure chaos styles; fragments of letters remain readable"
+
+  composition:
+    arrangement: "Organic central monogram or path surrounded by soft registers and optional small alchemical marks"
+    dominant_features:
+      - "Central interwoven letter form"
+      - "Soft circular or oval registers"
+      - "Gentle rising or coiling energy"
+      - "Delicate secondary accents"
+    margins: "Comfortable parchment margins; the mark feels placed rather than forced"
+    visual_hierarchy: "Central form first, surrounding registers second, fine accents last"
+    density: "Medium; elegant rather than dense or sparse"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Fluid Bézier curves with natural irregularity"
+    fills: "Solid dark ink; occasional small solid emblems"
+    transforms: "Gentle rotation and scaling to create organic weave"
+    layering: "Background texture, primary form, letter detail, accents"
+    scalability: "Symbol geometry independent of parchment texture"
+    avoid:
+      - "Hard geometric frames and perfect circles"
+      - "Heavy engraved plate weight"
+      - "Stark modern minimalism"
+      - "Excessive decorative scrollwork or botanical overload"
+      - "Gradient fills on the main mark"
+      - "Thin uniform hairlines"

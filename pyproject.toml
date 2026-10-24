@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigil-creator"
+version = "0.1.0"
+description = "CLI tools for creating personal magical sigils using classical and chaos magic methods (Spare letter reduction, Agrippa planetary kameas, Rose Cross, and grimoire-style seals)."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Sigil Creator Contributors"}
+]
+keywords = ["sigil", "chaos-magic", "occult", "grimoire", "kamea", "cli", "magic"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Topic :: Religion",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+sigil = "sigil_creator.cli:main"
+sigil-reduce = "sigil_creator.reduce_letters:main"
+sigil-numbers = "sigil_creator.letters_to_numbers:main"
+
+[project.urls]
+Homepage = "https://github.com/example/sigil-creator"
+Documentation = "https://github.com/example/sigil-creator#readme"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"sigil_creator" = ["data/profiles/*.yaml", "data/references/*.md"]

@@ -1,0 +1,154 @@
+sigil_style:
+  name: "Grimoire Engraved Sigil"
+  aesthetic:
+    influences:
+      - "Solomonic and Goetic engraved plates"
+      - "17th–18th century grimoire illustrations"
+      - "Copperplate and woodcut occult seals"
+      - "Angular ceremonial magic diagrams"
+    character: "Severe, angular, authoritative, occult-authoritative"
+    finish: "Dense black ink on aged cream vellum, slight plate impression"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Aged cream vellum with faint plate wear"
+    background_texture: "Subtle paper grain and occasional faint foxing"
+    foreground_color: "#0a0a0a"
+    opacity: 1.0
+
+  background:
+    color: "#f2ead8"
+    asset: null
+    texture_opacity: 0.9
+
+  stroke:
+    color: "#0a0a0a"
+    vector_widths:
+      primary: 16
+      secondary: 10
+      detail: 4
+    primary_weight: "Heavy, almost carved"
+    secondary_weight: "Firm medium"
+    approximate_primary_width: "16 units per 1000 canvas units"
+    approximate_secondary_width: "10 units per 1000 canvas units"
+    cap_style: "Sharp squared or abruptly tapered terminals"
+    join_style: "Hard angles and deliberate pointed intersections"
+    pressure_variation: "Minimal — consistent engraved weight"
+    character: "Cut, authoritative, plate-like"
+    outlines: "Solid black shapes with crisp edges, no sketchiness"
+
+  curves:
+    style:
+      - "Tight circular arcs"
+      - "Angular polygonal approximations of curves"
+      - "Short connecting bows"
+      - "Geometric segments preferred over freehand flourishes"
+    curvature: "Controlled, often broken into straight + arc segments"
+    symmetry: "Strong bilateral or rotational preference when possible"
+    transitions: "Abrupt changes of direction; few soft blends"
+    terminals:
+      - "Sharp pointed ends"
+      - "Squared stubs"
+      - "Small triangular barbs"
+
+  geometry:
+    vertical_axis: "Strong central vertical axis or dual pillars"
+    horizontal_axis: "Clear horizontal registers or crossbars"
+    diagonal_axes: "Prominent X or chevron diagonals"
+    construction: "Composite of geometric frames, letter reductions, and angular seals"
+    alignment: "Centered, hierarchical"
+    symmetry: "Approximate bilateral or radial"
+    intersections: "Clean crossings, often reinforced"
+    negative_space: "Defined geometric voids and circular registers"
+
+  construction:
+    default_method: "angular_seal"
+    default_gesture: "frame"
+    glyph_scale: 0.95
+    glyph_curvature: 0.6
+    scale_reference_count: 6
+    max_visible_forms: 7
+    weave_sway: 6
+    weave_anchors: []
+    rotation_limit: 8
+    vertical_squash: 1.0
+    word_separation: 12
+    spine_drift: 10
+    spine_top: 120
+    spine_bottom: 880
+    spine_width: 28
+    structure_width: 28
+    loop_scale: 0.75
+    bowl_scale: 0.7
+    crossbar_y: 500
+    crossbar_start_x: 180
+    crossbar_span: 640
+    crossbar_width: 22
+    crossbar_sweep: 0
+    gesture_scale: 0.9
+    gesture_overlay_scale: 0.65
+    gesture_rotation: 0
+    gesture_width: 14
+    wheel_radius: 340
+    square_extent: 820
+
+  layering:
+    order:
+      - "outer-frame"
+      - "primary-structure"
+      - "method-path"
+      - "letterforms"
+      - "inner-registers"
+      - "accent-marks"
+
+  arrow:
+    enabled: false
+    inclusion: "Rarely used; prefer closed seals and registers"
+    shaft:
+      style: ""
+      weight: ""
+      direction: ""
+    head:
+      shape: ""
+      construction: ""
+      silhouette: ""
+      fill: ""
+    integration: ""
+    appearance: ""
+
+  lettering:
+    style: "Angular blackletter and condensed classical capitals"
+    construction: "Letters reduced to geometric skeletons, often rotated or mirrored"
+    vertical_strokes: "Thick, rigid stems"
+    crossbars: "Heavy horizontal bars"
+    bowls: "Squared or tightly arced"
+    diagonals: "Bold, straight connections"
+    legibility: "Fragments remain readable but subordinate to overall seal silhouette"
+
+  composition:
+    arrangement: "Hierarchical seal: outer circle or square, internal geometric lattice, reduced letter path"
+    dominant_features:
+      - "Outer circular or square frame"
+      - "Strong central axis or cross"
+      - "Angular letter-derived paths"
+      - "Defined negative-space registers"
+    margins: "Balanced, slightly generous parchment margins"
+    visual_hierarchy: "Outer frame first, internal geometry second, letter detail third"
+    density: "High contrast, controlled density, clear voids"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Mostly straight segments and tight circular arcs"
+    fills: "Solid black for primary structure; open registers left empty"
+    transforms: "Limited rotation; prefer axial alignment"
+    layering: "Background, outer frame, primary structure, letter path, accents"
+    scalability: "Geometry independent of paper texture"
+    avoid:
+      - "Soft calligraphic flourishes"
+      - "Organic pressure variation"
+      - "Loose asymmetric weaves"
+      - "Gradient fills"
+      - "Decorative botanical or scrollwork"
+      - "Modern minimalist thin lines"

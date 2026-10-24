@@ -1,0 +1,173 @@
+sigil_style:
+  name: "Antiquarian Calligraphic Sigil"
+  aesthetic:
+    influences:
+      - "Traditional calligraphy"
+      - "Alchemical and esoteric symbolism"
+      - "Engraved occult illustrations"
+      - "Hand-drawn geometric sigils"
+    character: "Bold, archaic, interwoven, symbolic"
+    finish: "Black ink on warm ivory parchment"
+
+  canvas:
+    aspect_ratio: "1:1"
+    size: 1000
+    background: "Warm ivory handmade paper"
+    background_texture: "Fine fibers and subtle natural speckling"
+    foreground_color: "#080906"
+    opacity: 1.0
+
+  background:
+    color: "#f4efe6"
+    asset: "../assets/ivory_paper_background.svg"
+    texture_opacity: 1.0
+
+  stroke:
+    color: "#080906"
+    vector_widths:
+      primary: 14
+      secondary: 9
+      detail: 5
+    primary_weight: "Heavy with open negative space"
+    secondary_weight: "Medium"
+    approximate_primary_width: "14 units per 1000 canvas units"
+    approximate_secondary_width: "9 units per 1000 canvas units"
+    cap_style: "Mix of rounded organic terminals and sharp tapered terminals"
+    join_style: "Mostly smooth, with occasional pointed intersections"
+    pressure_variation: "Subtle to pronounced"
+    character: "Ink-like, confident, slightly organic"
+    outlines: "Solid black shapes, not sketchy outlines"
+
+  curves:
+    style:
+      - "Broad circular loops"
+      - "Open C-shaped arcs"
+      - "Tall vertical loops"
+      - "Sweeping calligraphic bowls"
+      - "Long diagonal curves"
+    curvature: "Smooth, continuous, flowing"
+    symmetry: "Approximate rather than mathematically perfect"
+    transitions: "Curves flow directly into straight strokes"
+    terminals:
+      - "Rounded ends"
+      - "Tapered hooks"
+      - "Sharp pointed ends"
+
+  geometry:
+    vertical_axis: "Strong central spine"
+    horizontal_axis: "Prominent crossbar"
+    diagonal_axes: "Intersecting diagonals rising and falling across the center"
+    construction: "Multiple glyph-like forms interwoven into one composite symbol"
+    alignment: "Centered composition"
+    symmetry: "Asymmetric balance"
+    intersections: "Intentional overlaps and crossings"
+    negative_space: "Irregular enclosed and open spaces"
+
+  construction:
+    default_method: "reduced_monogram"
+    default_gesture: "join"
+    glyph_scale: 1.0
+    glyph_curvature: 1.0
+    scale_reference_count: 8
+    max_visible_forms: 8
+    weave_sway: 14
+    weave_anchors:
+      - [465, 180]
+      - [555, 260]
+      - [475, 345]
+      - [545, 430]
+      - [455, 515]
+      - [560, 600]
+      - [450, 690]
+      - [535, 785]
+    rotation_limit: 12
+    vertical_squash: 0.88
+    word_separation: 18
+    spine_drift: 34
+    spine_top: 112
+    spine_bottom: 914
+    spine_width: 24
+    structure_width: 24
+    loop_scale: 1.0
+    bowl_scale: 1.0
+    crossbar_y: 310
+    crossbar_start_x: 175
+    crossbar_span: 430
+    crossbar_width: 36
+    crossbar_sweep: 11
+    gesture_scale: 1.0
+    gesture_overlay_scale: 0.72
+    gesture_rotation: 12
+    gesture_width: 16
+    wheel_radius: 370
+    square_extent: 790
+
+  layering:
+    order:
+      - "arrow-shaft"
+      - "primary-structure"
+      - "method-path"
+      - "intent-gesture"
+      - "letterforms"
+      - "arrowhead"
+
+  arrow:
+    enabled: true
+    start_x: 450
+    start_y: 850
+    tip_x: 820
+    tip_y: 300
+    shaft_start_width: 9
+    shaft_width: 20
+    shaft_bend: 8
+    head_length: 140
+    head_half_width: 40
+    inclusion: "Optional directional arrow integrated into the symbol"
+    shaft:
+      style: "Long, straight or gently tapered diagonal"
+      weight: "Strong, tapered black"
+      direction: "Usually ascending toward the upper right"
+    head:
+      shape: "Angular, elongated spearhead"
+      construction: "Two or more solid triangular barbs"
+      silhouette: "Sharp, assertive, clearly directional"
+      fill: "Solid black"
+    integration: "Arrow emerges from or crosses the central glyph structure"
+    appearance: "Hand-drawn calligraphic arrow rather than a standard UI arrow"
+
+  lettering:
+    style: "Blackletter-adjacent and classical calligraphic forms"
+    construction: "Letters may be abstracted, rotated, merged, or overlaid"
+    vertical_strokes: "Long, dominant stems"
+    crossbars: "Strong horizontal strokes"
+    bowls: "Large rounded loops"
+    diagonals: "Bold, sweeping connections"
+    legibility: "Recognizable fragments balanced with a unified sigil silhouette"
+
+  composition:
+    arrangement: "Irregular phrase weave through a loop, bowl, stem, bar, and diagonal anatomy"
+    dominant_features:
+      - "Central vertical stroke"
+      - "Strong horizontal crossbar"
+      - "Large upper loops"
+      - "Sweeping lower diagonals"
+      - "One integrated directional arrow"
+    margins: "Narrow but balanced parchment margins; the mark fills most of the square"
+    visual_hierarchy: "Silhouette first, internal glyph details second"
+    density: "Controlled intersections and clear negative space"
+
+  vector_guidelines:
+    format: "SVG"
+    coordinate_system: "Normalized 0-1000 canvas"
+    paths: "Editable Bézier curves and straight segments"
+    fills: "Solid black where strokes merge into filled shapes"
+    transforms: "Use rotation and scaling to interweave glyph components"
+    layering: "Background, primary glyphs, secondary glyphs, arrow"
+    scalability: "Keep all symbol geometry independent of the paper texture"
+    avoid:
+      - "Thin hairline strokes"
+      - "Uniform geometric circles"
+      - "Perfect mechanical symmetry"
+      - "Gradient fills on the symbol"
+      - "Excessive decorative flourishes"
+      - "Generic minimalist iconography"
